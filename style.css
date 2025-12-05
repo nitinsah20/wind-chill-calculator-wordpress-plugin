@@ -1,0 +1,129 @@
+.wcc-container {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.wcc-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #1e73be;
+}
+
+.wcc-field {
+    margin-bottom: 15px;
+}
+
+.wcc-field label {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.wcc-field input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.wcc-btn {
+    width: 100%;
+    padding: 14px;
+    background: #1e73be;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.wcc-btn:hover {
+    background: #145a96;
+}
+
+.wcc-result-box {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f0f8ff;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e4a70;
+}
+
+/* Dark Mode Button*/
+
+/* Dark Mode */
+.wcc-dark .wcc-container {
+    background: #1b1b1b;
+    color: #f5f5f5;
+    box-shadow: 0 4px 15px rgba(255,255,255,0.1);
+}
+
+.wcc-dark .wcc-title {
+    color: #4da3ff;
+}
+
+.wcc-dark input {
+    background: #2a2a2a;
+    color: #fff;
+    border-color: #444;
+}
+
+.wcc-dark .wcc-btn {
+    background: #4da3ff;
+}
+
+.wcc-dark .wcc-result-box {
+    background: #2a2a2a;
+    color: #4da3ff;
+}
+
+/* Toggle Button */
+.wcc-dark-toggle {
+    float: right;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #1e73be;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.wcc-dark-toggle:hover {
+    background: #145a96;
+}
+
+.wcc-dark .wcc-dark-toggle {
+    background: #444;
+    color: #fff;
+}
+
+
+/* Mobile Friendly */
+@media (max-width: 480px) {
+    .wcc-container {
+        padding: 15px;
+    }
+    .wcc-title {
+        font-size: 22px;
+    }
+    .wcc-btn {
+        font-size: 16px;
+    }
+}
